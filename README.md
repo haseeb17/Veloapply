@@ -37,13 +37,15 @@ https://veloapply.com
 
 ## Documentation
 
-Additional documentation will be published inside the `/docs` directory.
+- [CHANGELOG.md](CHANGELOG.md) for release history.
+- [ROADMAP.md](ROADMAP.md) for what we are working on next.
+
+Additional guides will be published inside a /docs directory as they are ready.
 
 ## Security
 
-If you discover a security issue, please report it responsibly. Public security guidance will be available in `SECURITY.md`.
+If you discover a security issue, please report it responsibly. See [SECURITY.md](SECURITY.md) for how to report it.
 
 ## License
 
-See the LICENSE file for licensing information.
-
+See the [LICENSE](LICENSE) file for licensing information.
