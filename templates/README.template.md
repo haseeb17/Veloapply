@@ -1,5 +1,12 @@
 # Experienced Tech Jobs (2026)
 
+<p>
+  <a href="https://github.com/haseeb17/Veloapply/stargazers"><img src="https://img.shields.io/github/stars/haseeb17/Veloapply?style=flat" alt="GitHub stars"></a>
+  <a href="https://github.com/haseeb17/Veloapply/network/members"><img src="https://img.shields.io/github/forks/haseeb17/Veloapply?style=flat" alt="GitHub forks"></a>
+  <a href="https://github.com/haseeb17/Veloapply/issues"><img src="https://img.shields.io/github/issues/haseeb17/Veloapply?style=flat" alt="GitHub issues"></a>
+  <a href="https://github.com/haseeb17/Veloapply/actions/workflows/validate.yml"><img src="https://img.shields.io/github/actions/workflow/status/haseeb17/Veloapply/validate.yml?branch=main&label=validate" alt="Validate listings"></a>
+</p>
+
 A community-maintained list of **mid-level, senior, staff, and leadership roles** on real company career sites — Greenhouse, Lever, Ashby, Workday, iCIMS, and other ATS boards.
 
 This is not an internship or new-grad list. Simplify already runs that playbook well. This list is for people who are applying as professionals: long Workday forms, custom screening questions, and roles where a tailored application actually matters.
@@ -13,6 +20,7 @@ This is a starter set. It stays useful if people add roles they actually see on 
 <p>
   <a href="{{EXTENSION_PLACEHOLDER}}"><img src="https://img.shields.io/badge/Chrome_extension-Free_autofill-4F46E5?logo=googlechrome&logoColor=white" alt="Install the VeloApply Chrome extension"></a>
   <a href="https://veloapply.com/?utm_source=github&utm_medium=community_list&utm_campaign=readme"><img src="https://img.shields.io/badge/VeloApply-Review--first_job_search-111827" alt="VeloApply website"></a>
+  <a href="https://github.com/haseeb17/awesome-ai-job-search-tools"><img src="https://img.shields.io/badge/Awesome-AI_job_search_tools-yellow" alt="Awesome AI job search tools"></a>
   <a href="https://github.com/haseeb17/Veloapply/issues/new/choose"><img src="https://img.shields.io/badge/Contribute-Add_a_role-059669" alt="Add a role"></a>
 </p>
 
@@ -63,6 +71,12 @@ This list stays useful only if people keep it current. If it helps you, star the
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) first. We only accept **currently open**, **experienced** roles on **company career sites**. Internships, Easy Apply links, and duplicate URLs will be closed.
 
 Maintainers approve submissions with the `approved` label. A GitHub Action then updates `data/listings.json` and regenerates this README.
+
+## Related
+
+- [Awesome AI Job Search Tools](https://github.com/haseeb17/awesome-ai-job-search-tools) — curated resume, ATS, autofill, and interview tools
+- [ATS company directory](ATS.md) — career sites grouped by Workday, Greenhouse, Lever, Ashby, and iCIMS
+- [VeloApply product](docs/PRODUCT.md) — review-first autofill and tailoring
 
 ## Product
 

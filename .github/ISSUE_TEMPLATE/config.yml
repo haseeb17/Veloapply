@@ -9,3 +9,6 @@ contact_links:
   - name: New-grad lists (not this repo)
     url: https://github.com/SimplifyJobs/New-Grad-Positions
     about: We do not list new-grad programs. Use the established new-grad lists.
+  - name: Awesome AI job search tools
+    url: https://github.com/haseeb17/awesome-ai-job-search-tools
+    about: Suggest a tool for the curated AI job-search list, not a job posting.

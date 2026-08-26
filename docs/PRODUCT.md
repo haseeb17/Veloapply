@@ -26,6 +26,8 @@ The public GitHub list in this repository is aimed at experienced hires. Interns
 - Website: https://veloapply.com
 - Chrome extension: https://chromewebstore.google.com/detail/agpginkiklnhcigiecpfemiflebnhnfj
 - Support: info@veloapply.com
+- Job list: https://github.com/haseeb17/Veloapply
+- Tools list: https://github.com/haseeb17/awesome-ai-job-search-tools
 
 ## Pricing (summary)
 
@@ -34,4 +36,5 @@ Free tier includes unlimited extension autofill plus 15 AI-tailored applications
 ## Repository split
 
 - This repository: community job list, ATS directory, and public product documentation
+- [awesome-ai-job-search-tools](https://github.com/haseeb17/awesome-ai-job-search-tools): curated AI job-search tools
 - Private repositories: production application, infrastructure, and proprietary AI systems

@@ -57,12 +57,37 @@ Source of truth:
 
 ## Maintainer notes
 
-Create these labels if they do not exist yet: `approved`, `new_listing`, `edit_listing`, `mark_inactive`, `misc`.
+Labels (`approved`, `new_listing`, `edit_listing`, `mark_inactive`, `misc`) are created automatically on push to `main` by `.github/workflows/sync-labels.yml`. You can also run **Actions → Sync labels**.
 
 Approve a submission only after you have opened the apply URL and confirmed it is still accepting applications. Prefer marking inactive over deleting history.
 
 Never wrap employer apply links through VeloApply. Promotion stays in the README CTA.
 
+### GitHub About (one-time, repo Settings)
+
+The agent token cannot change GitHub UI settings. After this branch is on `main`, set these in **Settings → General**:
+
+| Field | Value |
+| --- | --- |
+| Description | Community-maintained list of experienced tech jobs on real ATS career sites (Workday, Greenhouse, Lever, Ashby, iCIMS). Not internships. |
+| Website | `https://veloapply.com` |
+| Topics | `job-list` `remote-jobs` `software-engineer-jobs` `workday` `greenhouse` `lever` `ashby` `ats` `job-search` `chrome-extension` |
+| Features | Issues on. Wiki off. Projects off. |
+
+Pin this repository on https://github.com/haseeb17 so it is the first thing people see.
+
+### Sister repo
+
+[`awesome-ai-job-search-tools`](https://github.com/haseeb17/awesome-ai-job-search-tools) should link back here. Add a **Job lists** section:
+
+```md
+## Job lists
+
+- [Experienced Tech Jobs (2026)](https://github.com/haseeb17/Veloapply) - Community list of mid/senior/staff roles on real ATS career sites. Not internships.
+```
+
 ## Product documentation
 
 Unrelated doc fixes for VeloApply itself can go in [docs/PRODUCT.md](docs/PRODUCT.md) via a pull request. For anything beyond a small text fix, open an issue first.
+
+By contributing, you agree to the [Code of Conduct](CODE_OF_CONDUCT.md).
