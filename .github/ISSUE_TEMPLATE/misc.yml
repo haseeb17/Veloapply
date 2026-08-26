@@ -1,0 +1,27 @@
+name: Something else
+description: Questions, ATS directory updates, or list improvements
+title: "Misc: "
+labels: ["misc"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For product bugs in the VeloApply app or extension, email info@veloapply.com rather than opening an issue here.
+  - type: dropdown
+    id: topic
+    attributes:
+      label: Topic
+      options:
+        - Question about the list
+        - Add or correct a company in ATS.md
+        - README / docs improvement
+        - Feature idea for this repository
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+    validations:
+      required: true

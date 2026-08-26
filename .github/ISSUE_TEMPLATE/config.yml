@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: VeloApply product support
+    url: https://veloapply.com
+    about: Help with the VeloApply app or Chrome extension
+  - name: Internship lists (not this repo)
+    url: https://github.com/SimplifyJobs/Summer2027-Internships
+    about: We do not list internships or co-ops. Use the established community internship lists.
+  - name: New-grad lists (not this repo)
+    url: https://github.com/SimplifyJobs/New-Grad-Positions
+    about: We do not list new-grad programs. Use the established new-grad lists.
+  - name: Awesome AI job search tools
+    url: https://github.com/haseeb17/awesome-ai-job-search-tools
+    about: Suggest a tool for the curated AI job-search list, not a job posting.
