@@ -1,0 +1,151 @@
+name: New role
+description: Add a currently open mid-level, senior, staff, or leadership role
+title: "Add role: "
+labels: ["new_listing"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing. Please read [CONTRIBUTING.md](../blob/main/CONTRIBUTING.md) first.
+
+        **This list does not accept internships, co-ops, or new-grad programs.**
+        The posting must be on a company career site or ATS (Greenhouse, Lever, Ashby, Workday, iCIMS, …) — not LinkedIn Easy Apply, Indeed, or Glassdoor.
+  - type: input
+    id: url
+    attributes:
+      label: Link to Job Posting
+      placeholder: https://jobs.ashbyhq.com/company/role-id
+    validations:
+      required: true
+  - type: input
+    id: company_name
+    attributes:
+      label: Company Name
+      placeholder: Acme
+    validations:
+      required: true
+  - type: input
+    id: company_url
+    attributes:
+      label: Company Website
+      placeholder: https://acme.com
+    validations:
+      required: false
+  - type: input
+    id: title
+    attributes:
+      label: Role Title
+      placeholder: Senior Software Engineer, Backend
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      description: Separate multiple locations with a pipe `|`. Include Remote if it is an option.
+      placeholder: San Francisco, CA | Remote
+    validations:
+      required: true
+  - type: dropdown
+    id: level
+    attributes:
+      label: Experience Level
+      options:
+        - Mid-level
+        - Senior
+        - Staff
+        - Principal
+        - Lead
+        - Engineering Manager
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Software Engineering
+        - Data, AI & Machine Learning
+        - Infrastructure & Platform
+        - Security Engineering
+        - Product Management
+        - Design
+        - Hardware & Systems
+    validations:
+      required: true
+  - type: dropdown
+    id: work_arrangement
+    attributes:
+      label: Work Arrangement
+      options:
+        - Remote
+        - Hybrid
+        - Onsite
+    validations:
+      required: true
+  - type: dropdown
+    id: ats
+    attributes:
+      label: ATS / Application Platform
+      description: The career-site platform you land on when you click Apply.
+      options:
+        - Greenhouse
+        - Lever
+        - Ashby
+        - Workday
+        - iCIMS
+        - SmartRecruiters
+        - Taleo
+        - BambooHR
+        - Other / company site
+    validations:
+      required: true
+  - type: dropdown
+    id: sponsorship
+    attributes:
+      label: Visa Sponsorship
+      options:
+        - Offers sponsorship
+        - Does not offer sponsorship
+        - U.S. citizenship is required
+        - Unknown / not listed
+    validations:
+      required: true
+  - type: dropdown
+    id: active
+    attributes:
+      label: Is this role currently accepting applications?
+      options:
+        - "Yes"
+        - "No"
+    validations:
+      required: true
+  - type: checkboxes
+    id: tailor
+    attributes:
+      label: Custom screening or tailored application?
+      description: Check this if the posting has custom questions, a cover letter prompt, or a long ATS flow (typical Workday).
+      options:
+        - label: Yes — this posting has custom questions, a cover letter, or a long ATS form
+  - type: input
+    id: date_posted
+    attributes:
+      label: Date Posted
+      description: Optional. Use YYYY-MM-DD if you know it.
+      placeholder: "2026-08-26"
+    validations:
+      required: false
+  - type: input
+    id: email
+    attributes:
+      label: Email associated with your GitHub account (Optional)
+      description: Used only to attribute the commit if this contribution is approved. Leave blank to commit as the GitHub Action bot.
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: Extra Notes (Optional)
+      description: Context for maintainers. Not shown on the README.
+    validations:
+      required: false

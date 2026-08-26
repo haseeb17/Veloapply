@@ -1,0 +1,35 @@
+name: Mark role inactive
+description: Close a listing that has been filled, expired, or taken down
+title: "Inactive: "
+labels: ["mark_inactive"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Paste one apply URL per line. Maintainers will approve, then the list updates automatically.
+  - type: textarea
+    id: urls
+    attributes:
+      label: Job URL(s) to mark inactive
+      description: One URL per line, matching the link in the README.
+      placeholder: https://jobs.ashbyhq.com/company/role-id
+    validations:
+      required: true
+  - type: dropdown
+    id: reason
+    attributes:
+      label: Why is it inactive?
+      options:
+        - Filled / no longer listed
+        - Application closed
+        - Duplicate of another listing
+        - Out of scope (intern, new-grad, aggregator)
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: email
+    attributes:
+      label: Email associated with your GitHub account (Optional)
+    validations:
+      required: false

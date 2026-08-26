@@ -1,0 +1,31 @@
+name: Sync labels
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/sync-labels.yml"
+
+permissions:
+  issues: write
+
+jobs:
+  labels:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create list labels
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          create() {
+            local name="$1" color="$2" desc="$3"
+            gh label create "$name" --color "$color" --description "$desc" 2>/dev/null \
+              || gh label edit "$name" --color "$color" --description "$desc"
+          }
+          create approved "0E8A16" "Maintainer accepted this listing"
+          create new_listing "1D76DB" "Add a role to the list"
+          create edit_listing "FBCA04" "Update an existing listing"
+          create mark_inactive "B60205" "Close a listing that is no longer open"
+          create misc "D4C5F9" "Question or repo improvement"

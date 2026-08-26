@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Canonical",
+    "website": "https://canonical.com",
+    "ats": "greenhouse",
+    "careers_url": "https://canonical.com/careers"
+  },
+  {
+    "name": "Chime",
+    "website": "https://www.chime.com",
+    "ats": "greenhouse",
+    "careers_url": "https://boards.greenhouse.io/chime"
+  },
+  {
+    "name": "Nextdoor",
+    "website": "https://nextdoor.com",
+    "ats": "greenhouse",
+    "careers_url": "https://www.nextdoor.com/careers/"
+  },
+  {
+    "name": "Okta",
+    "website": "https://www.okta.com",
+    "ats": "greenhouse",
+    "careers_url": "https://www.okta.com/company/careers/"
+  },
+  {
+    "name": "Phantom",
+    "website": "https://phantom.com",
+    "ats": "greenhouse",
+    "careers_url": "https://boards.greenhouse.io/phantom45"
+  },
+  {
+    "name": "SpaceX",
+    "website": "https://www.spacex.com",
+    "ats": "greenhouse",
+    "careers_url": "https://www.spacex.com/careers"
+  },
+  {
+    "name": "TIFIN",
+    "website": "https://tifin.com",
+    "ats": "greenhouse",
+    "careers_url": "https://tifin.com/careers"
+  },
+  {
+    "name": "Curai",
+    "website": "https://www.curai.com",
+    "ats": "lever",
+    "careers_url": "https://jobs.lever.co/curai"
+  },
+  {
+    "name": "Dun & Bradstreet",
+    "website": "https://www.dnb.com",
+    "ats": "lever",
+    "careers_url": "https://jobs.lever.co/dnb"
+  },
+  {
+    "name": "Flex",
+    "website": "https://flex.one",
+    "ats": "lever",
+    "careers_url": "https://jobs.lever.co/Flex"
+  },
+  {
+    "name": "Included Health",
+    "website": "https://includedhealth.com",
+    "ats": "lever",
+    "careers_url": "https://jobs.lever.co/includedhealth"
+  },
+  {
+    "name": "Iru",
+    "website": "https://jobs.lever.co/iru",
+    "ats": "lever",
+    "careers_url": "https://jobs.lever.co/iru"
+  },
+  {
+    "name": "Campus",
+    "website": "https://www.campus.edu",
+    "ats": "ashby",
+    "careers_url": "https://jobs.ashbyhq.com/campus"
+  },
+  {
+    "name": "Check",
+    "website": "https://checkhq.com",
+    "ats": "ashby",
+    "careers_url": "https://jobs.ashbyhq.com/check-technologies"
+  },
+  {
+    "name": "Metal",
+    "website": "https://metal.so",
+    "ats": "ashby",
+    "careers_url": "https://jobs.ashbyhq.com/metal.so"
+  },
+  {
+    "name": "Nightfall AI",
+    "website": "https://www.nightfall.ai",
+    "ats": "ashby",
+    "careers_url": "https://jobs.ashbyhq.com/nightfall-ai"
+  },
+  {
+    "name": "Seven AI",
+    "website": "https://www.sevenai.com",
+    "ats": "ashby",
+    "careers_url": "https://jobs.ashbyhq.com/sevenai"
+  },
+  {
+    "name": "Supabase",
+    "website": "https://supabase.com",
+    "ats": "ashby",
+    "careers_url": "https://jobs.ashbyhq.com/supabase"
+  },
+  {
+    "name": "Vynca",
+    "website": "https://www.vyncahealth.com",
+    "ats": "ashby",
+    "careers_url": "https://jobs.ashbyhq.com/vynca"
+  },
+  {
+    "name": "Adobe",
+    "website": "https://www.adobe.com",
+    "ats": "workday",
+    "careers_url": "https://careers.adobe.com/"
+  },
+  {
+    "name": "NVIDIA",
+    "website": "https://www.nvidia.com",
+    "ats": "workday",
+    "careers_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite"
+  },
+  {
+    "name": "Salesforce",
+    "website": "https://www.salesforce.com",
+    "ats": "workday",
+    "careers_url": "https://careers.salesforce.com/"
+  },
+  {
+    "name": "Thomson Reuters",
+    "website": "https://www.thomsonreuters.com",
+    "ats": "workday",
+    "careers_url": "https://thomsonreuters.wd5.myworkdayjobs.com/external_career_site"
+  },
+  {
+    "name": "Capital One",
+    "website": "https://www.capitalone.com",
+    "ats": "workday",
+    "careers_url": "https://www.capitalonecareers.com/"
+  },
+  {
+    "name": "GitHub",
+    "website": "https://github.com",
+    "ats": "icims",
+    "careers_url": "https://www.github.careers/careers-home/jobs"
+  }
+]

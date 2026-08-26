@@ -1,0 +1,38 @@
+name: Validate listings
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+    paths:
+      - "data/**"
+      - "tools/**"
+      - "templates/**"
+      - "tests/**"
+      - "README.md"
+      - "ATS.md"
+      - ".github/workflows/validate.yml"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run tests
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+        run: python3 -m unittest discover -s tests -v
+      - name: Validate data
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+        run: python3 -m tools.cli validate
+      - name: Check generated docs are current
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+        run: |
+          DATE=$(python3 -c "import re, pathlib; text = pathlib.Path('README.md').read_text(encoding='utf-8'); match = re.search(r'Last generated \*\*(\d{4}-\d{2}-\d{2})\*\*', text); print(match.group(1) if match else '1970-01-01')")
+          python3 -m tools.cli generate --date "$DATE"
+          git diff --exit-code -- README.md ATS.md

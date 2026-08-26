@@ -1,0 +1,445 @@
+[
+  {
+    "id": "34699bfc8e76",
+    "company": "Nextdoor",
+    "company_url": "https://nextdoor.com",
+    "title": "Senior/Staff Machine Learning Engineer - Ads",
+    "category": "data-ml",
+    "level": "staff",
+    "locations": [
+      "See posting"
+    ],
+    "work_arrangement": "hybrid",
+    "ats": "greenhouse",
+    "url": "https://boards.greenhouse.io/embed/job_app?token=6005888",
+    "sponsorship": "unknown",
+    "tailor_recommended": true,
+    "active": true,
+    "date_posted": null,
+    "date_added": "2026-08-26",
+    "source": "curated"
+  },
+  {
+    "id": "feb41323fcdc",
+    "company": "TIFIN",
+    "company_url": "https://tifin.com",
+    "title": "Staff ML Engineer, Applied AI",
+    "category": "data-ml",
+    "level": "staff",
+    "locations": [
+      "See posting"
+    ],
+    "work_arrangement": "remote",
+    "ats": "greenhouse",
+    "url": "https://boards.greenhouse.io/embed/job_app?for=tifin&token=5381137004",
+    "sponsorship": "unknown",
+    "tailor_recommended": false,
+    "active": true,
+    "date_posted": null,
+    "date_added": "2026-08-26",
+    "source": "curated"
+  },
+  {
+    "id": "002bdaaad13c",
+    "company": "SpaceX",
+    "company_url": "https://www.spacex.com",
+    "title": "Sr. Software Engineer (Platform Team)",
+    "category": "infrastructure",
+    "level": "senior",
+    "locations": [
+      "Hawthorne, CA"
+    ],
+    "work_arrangement": "onsite",
+    "ats": "greenhouse",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8495853002",
+    "sponsorship": "us-citizenship-required",
+    "tailor_recommended": true,
+    "active": true,
+    "date_posted": null,
+    "date_added": "2026-08-26",
+    "source": "curated"
+  },
+  {
+    "id": "cb519cd8b9d2",
+    "company": "Thomson Reuters",
+    "company_url": "https://www.thomsonreuters.com",
+    "title": "Staff Software Engineer — Search Platform, Ingestion & Indexing",
+    "category": "infrastructure",
+    "level": "staff",
+    "locations": [
+      "Eagan, MN",
+      "United States"
+    ],
+    "work_arrangement": "hybrid",
+    "ats": "workday",
+    "url": "https://thomsonreuters.wd5.myworkdayjobs.com/en-US/external_career_site/job/United-States-of-America-Eagan-Minnesota/Staff-Software-Engineer---Search-Platform--Ingestion---Indexing_JREQ199988-2",
+    "sponsorship": "unknown",
+    "tailor_recommended": true,
+    "active": true,
+    "date_posted": null,
+    "date_added": "2026-08-26",
+    "source": "curated"
+  },
+  {
+    "id": "0535b23d7d2d",
+    "company": "Nightfall AI",
+    "company_url": "https://www.nightfall.ai",
+    "title": "Senior Product Manager",
+    "category": "product",
+    "level": "senior",
+    "locations": [
+      "See posting"
+    ],
+    "work_arrangement": "remote",
+    "ats": "ashby",
+    "url": "https://jobs.ashbyhq.com/nightfall-ai/c269561d-b2b2-4958-a710-7ab2b65d9f2b",
+    "sponsorship": "unknown",
+    "tailor_recommended": false,
+    "active": true,
+    "date_posted": null,
+    "date_added": "2026-08-26",
+    "source": "curated"
+  },
+  {
+    "id": "8852b333e479",
+    "company": "Supabase",
+    "company_url": "https://supabase.com",
+    "title": "Product Manager - Security & Trust (EMEA/AMER)",
+    "category": "product",
+    "level": "senior",
+    "locations": [
+      "Remote (EMEA / AMER)"
+    ],
+    "work_arrangement": "remote",
+    "ats": "ashby",
+    "url": "https://jobs.ashbyhq.com/supabase/b8010a28-109c-46a9-b8b7-c7f9b24077fa",
+    "sponsorship": "unknown",
+    "tailor_recommended": false,
+    "active": true,
+    "date_posted": null,
+    "date_added": "2026-08-26",
+    "source": "curated"
+  },
+  {
+    "id": "1f95616e3420",
+    "company": "Dun & Bradstreet",
+    "company_url": "https://www.dnb.com",
+    "title": "Senior AI Security Engineer",
+    "category": "security",
+    "level": "senior",
+    "locations": [
+      "See posting"
+    ],
+    "work_arrangement": "hybrid",
+    "ats": "lever",
+    "url": "https://jobs.lever.co/dnb/b534388c-23c7-4fff-a740-f56e9f671aa6",
+    "sponsorship": "unknown",
+    "tailor_recommended": false,
+    "active": true,
+    "date_posted": null,
+    "date_added": "2026-08-26",
+    "source": "curated"
+  },
+  {
+    "id": "73dfb69798e9",
+    "company": "Iru",
+    "company_url": "https://jobs.lever.co/iru",
+    "title": "Senior Product Security Engineer",
+    "category": "security",
+    "level": "senior",
+    "locations": [
+      "See posting"
+    ],
+    "work_arrangement": "remote",
+    "ats": "lever",
+    "url": "https://jobs.lever.co/iru/383e447e-6f69-447f-aa52-b98c12aa72e8",
+    "sponsorship": "unknown",
+    "tailor_recommended": false,
+    "active": true,
+    "date_posted": null,
+    "date_added": "2026-08-26",
+    "source": "curated"
+  },
+  {
+    "id": "c91808e0a5fb",
+    "company": "Seven AI",
+    "company_url": "https://www.sevenai.com",
+    "title": "Senior Product Security Engineer",
+    "category": "security",
+    "level": "senior",
+    "locations": [
+      "See posting"
+    ],
+    "work_arrangement": "remote",
+    "ats": "ashby",
+    "url": "https://jobs.ashbyhq.com/sevenai/29de66a7-0d19-4aa4-a87c-fa87f11f16f4",
+    "sponsorship": "unknown",
+    "tailor_recommended": false,
+    "active": true,
+    "date_posted": null,
+    "date_added": "2026-08-26",
+    "source": "curated"
+  },
+  {
+    "id": "d02ec97c50bf",
+    "company": "Campus",
+    "company_url": "https://www.campus.edu",
+    "title": "Senior Software Engineer",
+    "category": "software-engineering",
+    "level": "senior",
+    "locations": [
+      "New York, NY"
+    ],
+    "work_arrangement": "hybrid",
+    "ats": "ashby",
+    "url": "https://jobs.ashbyhq.com/campus/17140f58-ea0d-4f0d-a45e-96dac4244d3b",
+    "sponsorship": "unknown",
+    "tailor_recommended": false,
+    "active": true,
+    "date_posted": null,
+    "date_added": "2026-08-26",
+    "source": "curated"
+  },
+  {
+    "id": "04b9c11a7363",
+    "company": "Canonical",
+    "company_url": "https://canonical.com",
+    "title": "Software Engineer (Python/Linux/Packaging)",
+    "category": "software-engineering",
+    "level": "mid",
+    "locations": [
+      "Remote - Europe"
+    ],
+    "work_arrangement": "remote",
+    "ats": "greenhouse",
+    "url": "https://boards.greenhouse.io/canonicaljobs/jobs/6374819",
+    "sponsorship": "unknown",
+    "tailor_recommended": true,
+    "active": true,
+    "date_posted": null,
+    "date_added": "2026-08-26",
+    "source": "curated"
+  },
+  {
+    "id": "fd479e38ae89",
+    "company": "Check",
+    "company_url": "https://checkhq.com",
+    "title": "Software Engineer, Senior",
+    "category": "software-engineering",
+    "level": "senior",
+    "locations": [
+      "Remote",
+      "New York, NY",
+      "San Francisco, CA"
+    ],
+    "work_arrangement": "remote",
+    "ats": "ashby",
+    "url": "https://jobs.ashbyhq.com/check-technologies/0906bd9a-0ab5-471a-a688-00de9f2df91a",
+    "sponsorship": "unknown",
+    "tailor_recommended": true,
+    "active": true,
+    "date_posted": "2026-08-01",
+    "date_added": "2026-08-26",
+    "source": "curated"
+  },
+  {
+    "id": "b3c88efa9e97",
+    "company": "Chime",
+    "company_url": "https://www.chime.com",
+    "title": "Staff Software Engineer, Spending",
+    "category": "software-engineering",
+    "level": "staff",
+    "locations": [
+      "United States"
+    ],
+    "work_arrangement": "hybrid",
+    "ats": "greenhouse",
+    "url": "https://boards.greenhouse.io/chime/jobs/8322470002",
+    "sponsorship": "unknown",
+    "tailor_recommended": false,
+    "active": true,
+    "date_posted": null,
+    "date_added": "2026-08-26",
+    "source": "curated"
+  },
+  {
+    "id": "c674eac456bd",
+    "company": "Curai",
+    "company_url": "https://www.curai.com",
+    "title": "Senior Software Engineer",
+    "category": "software-engineering",
+    "level": "senior",
+    "locations": [
+      "Remote"
+    ],
+    "work_arrangement": "remote",
+    "ats": "lever",
+    "url": "https://jobs.lever.co/curai/1fbe29c0-1ebd-46f1-bfe6-cb1bc9b060a3",
+    "sponsorship": "unknown",
+    "tailor_recommended": false,
+    "active": true,
+    "date_posted": null,
+    "date_added": "2026-08-26",
+    "source": "curated"
+  },
+  {
+    "id": "6674fd42873d",
+    "company": "Flex",
+    "company_url": "https://flex.one",
+    "title": "Senior Software Engineer, Backend",
+    "category": "software-engineering",
+    "level": "senior",
+    "locations": [
+      "Remote (US, Canada, Colombia)"
+    ],
+    "work_arrangement": "remote",
+    "ats": "lever",
+    "url": "https://jobs.lever.co/Flex/151e09c6-398f-4fe0-8da7-8fd7814d1bae",
+    "sponsorship": "unknown",
+    "tailor_recommended": false,
+    "active": true,
+    "date_posted": null,
+    "date_added": "2026-08-26",
+    "source": "curated"
+  },
+  {
+    "id": "5d77886c5228",
+    "company": "GitHub",
+    "company_url": "https://github.com",
+    "title": "Software Engineer III",
+    "category": "software-engineering",
+    "level": "mid",
+    "locations": [
+      "Remote, United States"
+    ],
+    "work_arrangement": "remote",
+    "ats": "icims",
+    "url": "https://www.github.careers/careers-home/jobs/5428?lang=en-us",
+    "sponsorship": "unknown",
+    "tailor_recommended": true,
+    "active": true,
+    "date_posted": "2026-08-10",
+    "date_added": "2026-08-26",
+    "source": "curated"
+  },
+  {
+    "id": "4bf7bc2cd04a",
+    "company": "Included Health",
+    "company_url": "https://includedhealth.com",
+    "title": "Senior Software Engineer, Backend",
+    "category": "software-engineering",
+    "level": "senior",
+    "locations": [
+      "Remote"
+    ],
+    "work_arrangement": "remote",
+    "ats": "lever",
+    "url": "https://jobs.lever.co/includedhealth/6834927b-8527-4c2c-bc15-855a56f68765",
+    "sponsorship": "unknown",
+    "tailor_recommended": false,
+    "active": true,
+    "date_posted": null,
+    "date_added": "2026-08-26",
+    "source": "curated"
+  },
+  {
+    "id": "a0a86d56895c",
+    "company": "Included Health",
+    "company_url": "https://includedhealth.com",
+    "title": "Senior Software Engineer, Fullstack",
+    "category": "software-engineering",
+    "level": "senior",
+    "locations": [
+      "Remote"
+    ],
+    "work_arrangement": "remote",
+    "ats": "lever",
+    "url": "https://jobs.lever.co/includedhealth/c00ec43f-c773-4a99-80b7-ed26d485cd39",
+    "sponsorship": "unknown",
+    "tailor_recommended": false,
+    "active": true,
+    "date_posted": null,
+    "date_added": "2026-08-26",
+    "source": "curated"
+  },
+  {
+    "id": "e2a99106f474",
+    "company": "Metal",
+    "company_url": "https://metal.so",
+    "title": "Senior Software Engineer",
+    "category": "software-engineering",
+    "level": "senior",
+    "locations": [
+      "See posting"
+    ],
+    "work_arrangement": "remote",
+    "ats": "ashby",
+    "url": "https://jobs.ashbyhq.com/metal.so/51ab6cbd-faf7-49d7-ba29-39214ba42c6e",
+    "sponsorship": "unknown",
+    "tailor_recommended": false,
+    "active": true,
+    "date_posted": "2026-07-09",
+    "date_added": "2026-08-26",
+    "source": "curated"
+  },
+  {
+    "id": "777877d57945",
+    "company": "Okta",
+    "company_url": "https://www.okta.com",
+    "title": "Staff Software Engineer, Identity Administration",
+    "category": "software-engineering",
+    "level": "staff",
+    "locations": [
+      "Bengaluru, India"
+    ],
+    "work_arrangement": "hybrid",
+    "ats": "greenhouse",
+    "url": "https://boards.greenhouse.io/okta/jobs/8147222",
+    "sponsorship": "unknown",
+    "tailor_recommended": true,
+    "active": true,
+    "date_posted": null,
+    "date_added": "2026-08-26",
+    "source": "curated"
+  },
+  {
+    "id": "83249e49da56",
+    "company": "Phantom",
+    "company_url": "https://phantom.com",
+    "title": "Senior Software Engineer, Full-Stack",
+    "category": "software-engineering",
+    "level": "senior",
+    "locations": [
+      "Remote (US & EU time zones)"
+    ],
+    "work_arrangement": "remote",
+    "ats": "greenhouse",
+    "url": "https://boards.greenhouse.io/phantom45/jobs/4001423005",
+    "sponsorship": "unknown",
+    "tailor_recommended": true,
+    "active": true,
+    "date_posted": null,
+    "date_added": "2026-08-26",
+    "source": "curated"
+  },
+  {
+    "id": "47e0b4f72bb0",
+    "company": "Vynca",
+    "company_url": "https://www.vyncahealth.com",
+    "title": "Senior Software Engineer",
+    "category": "software-engineering",
+    "level": "senior",
+    "locations": [
+      "Remote (AZ, CA, CO, FL, GA, IL, NV, NC, OR, TX, UT, WA)"
+    ],
+    "work_arrangement": "remote",
+    "ats": "ashby",
+    "url": "https://jobs.ashbyhq.com/vynca/25a07131-c2d8-48c2-a2c2-6bf59bdb6b4a",
+    "sponsorship": "unknown",
+    "tailor_recommended": true,
+    "active": true,
+    "date_posted": "2026-07-26",
+    "date_added": "2026-08-26",
+    "source": "curated"
+  }
+]

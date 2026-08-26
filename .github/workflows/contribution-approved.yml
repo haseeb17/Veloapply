@@ -1,0 +1,62 @@
+name: Contribution approved
+
+on:
+  issues:
+    types: [labeled]
+
+concurrency:
+  group: listings-update
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  apply:
+    if: github.event.label.name == 'approved'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Process contribution
+        id: process
+        continue-on-error: true
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+        run: python3 -m tools.cli process-issue "$GITHUB_EVENT_PATH"
+
+      - name: Commit list and README
+        if: steps.process.outcome == 'success'
+        run: |
+          git config user.name "${{ steps.process.outputs.commit_username }}"
+          git config user.email "${{ steps.process.outputs.commit_email }}"
+          git add data/listings.json README.md ATS.md
+          if git diff --cached --quiet; then
+            echo "No file changes."
+          else
+            git commit -m "${{ steps.process.outputs.commit_message }}"
+            git push
+          fi
+
+      - name: Comment and close
+        if: steps.process.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue comment "${{ github.event.issue.number }}" --body-file comment.md
+          gh issue close "${{ github.event.issue.number }}" --reason completed
+
+      - name: Comment on failure
+        if: steps.process.outcome != 'success'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue comment "${{ github.event.issue.number }}" --body-file comment.md
+          gh issue edit "${{ github.event.issue.number }}" --remove-label approved

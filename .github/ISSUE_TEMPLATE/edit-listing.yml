@@ -1,0 +1,147 @@
+name: Edit role
+description: Update an existing listing (title, location, ATS, still-open status)
+title: "Edit role: "
+labels: ["edit_listing"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to correct a listing or change details. To close a role, the mark-inactive form is usually faster.
+  - type: input
+    id: url
+    attributes:
+      label: Existing Job URL
+      description: The apply URL currently shown in the README.
+    validations:
+      required: true
+  - type: input
+    id: new_url
+    attributes:
+      label: Updated Job URL
+      description: Only if the posting moved.
+    validations:
+      required: false
+  - type: input
+    id: company_name
+    attributes:
+      label: Company Name
+    validations:
+      required: false
+  - type: input
+    id: company_url
+    attributes:
+      label: Company Website
+    validations:
+      required: false
+  - type: input
+    id: title
+    attributes:
+      label: Role Title
+    validations:
+      required: false
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      description: Separate multiple locations with a pipe `|`.
+    validations:
+      required: false
+  - type: dropdown
+    id: level
+    attributes:
+      label: Experience Level
+      options:
+        - Mid-level
+        - Senior
+        - Staff
+        - Principal
+        - Lead
+        - Engineering Manager
+    validations:
+      required: false
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Software Engineering
+        - Data, AI & Machine Learning
+        - Infrastructure & Platform
+        - Security Engineering
+        - Product Management
+        - Design
+        - Hardware & Systems
+    validations:
+      required: false
+  - type: dropdown
+    id: work_arrangement
+    attributes:
+      label: Work Arrangement
+      options:
+        - Remote
+        - Hybrid
+        - Onsite
+    validations:
+      required: false
+  - type: dropdown
+    id: ats
+    attributes:
+      label: ATS / Application Platform
+      options:
+        - Greenhouse
+        - Lever
+        - Ashby
+        - Workday
+        - iCIMS
+        - SmartRecruiters
+        - Taleo
+        - BambooHR
+        - Other / company site
+    validations:
+      required: false
+  - type: dropdown
+    id: sponsorship
+    attributes:
+      label: Visa Sponsorship
+      options:
+        - Offers sponsorship
+        - Does not offer sponsorship
+        - U.S. citizenship is required
+        - Unknown / not listed
+    validations:
+      required: false
+  - type: dropdown
+    id: active
+    attributes:
+      label: Is this role currently accepting applications?
+      options:
+        - "Yes"
+        - "No"
+    validations:
+      required: false
+  - type: checkboxes
+    id: tailor
+    attributes:
+      label: Custom screening or tailored application?
+      options:
+        - label: Yes — this posting has custom questions, a cover letter, or a long ATS form
+  - type: input
+    id: date_posted
+    attributes:
+      label: Date Posted
+      placeholder: "2026-08-26"
+    validations:
+      required: false
+  - type: input
+    id: email
+    attributes:
+      label: Email associated with your GitHub account (Optional)
+    validations:
+      required: false
+  - type: textarea
+    id: reason
+    attributes:
+      label: What should we change?
+      description: Short explanation for maintainers.
+    validations:
+      required: true
