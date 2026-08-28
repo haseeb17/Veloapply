@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bench — QA device lab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <aside class="rail">
+    <div class="brand">
+      <span class="mark" aria-hidden="true"></span>
+      <div>
+        <strong>Bench</strong>
+        <em>QA device lab</em>
+      </div>
+    </div>
+    <nav>
+      <a href="#/" data-route="/">Overview</a>
+      <a href="#/rack" data-route="/rack">Device rack</a>
+      <a href="#/runs" data-route="/runs">Test runs</a>
+      <a href="#/sessions" data-route="/sessions">Desk sessions</a>
+      <a href="#/audit" data-route="/audit">Audit</a>
+      <a href="#/ci" data-route="/ci">CI hook</a>
+      <a href="#/use" data-route="/use">Acceptable use</a>
+    </nav>
+    <div class="rail-foot">
+      <label>Operator
+        <input id="operator" value="lab" maxlength="40" />
+      </label>
+      <p class="hint">Owned devices. Owned apps. Tests only.</p>
+    </div>
+  </aside>
+  <main>
+    <header class="top">
+      <div>
+        <p class="kicker" id="kicker">Lab</p>
+        <h1 id="title">Overview</h1>
+      </div>
+      <div class="top-actions">
+        <button type="button" class="ghost" id="sync-adb">Sync USB (adb)</button>
+        <button type="button" class="primary" id="new-run">Queue a run</button>
+      </div>
+    </header>
+    <section id="view" class="view"></section>
+  </main>
+
+  <dialog id="run-dialog">
+    <form id="run-form" method="dialog">
+      <h2>Queue a test run</h2>
+      <p class="lede">Installs and exercises an app you own. Nothing here creates accounts or talks to social apps.</p>
+      <label>Name
+        <input name="name" placeholder="Nightly smoke" />
+      </label>
+      <label>App under test (package or APK label)
+        <input name="app_label" required placeholder="com.yourcompany.app" />
+      </label>
+      <label>Suite
+        <select name="suite">
+          <option value="smoke">Smoke</option>
+          <option value="install_launch">Install + launch</option>
+          <option value="regression">Regression</option>
+          <option value="visual_diff">Visual diff</option>
+          <option value="accessibility">Accessibility</option>
+          <option value="instrumentation">Instrumentation</option>
+        </select>
+      </label>
+      <label>Pool
+        <select name="pool_id">
+          <option value="pool-smoke">Smoke</option>
+          <option value="pool-regression">Regression</option>
+          <option value="pool-manual">Manual (Android only)</option>
+        </select>
+      </label>
+      <label>Notes
+        <input name="notes" placeholder="Optional context for the report" />
+      </label>
+      <menu>
+        <button type="submit" class="primary" value="ok">Queue</button>
+        <button type="button" class="ghost" id="cancel-run" value="cancel">Cancel</button>
+      </menu>
+      <p class="form-error" id="run-error" hidden></p>
+    </form>
+  </dialog>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
