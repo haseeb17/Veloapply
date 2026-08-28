@@ -7,3 +7,6 @@ venv/
 .mypy_cache/
 .DS_Store
 comment.md
+device-lab/.venv/
+device-lab/**/*.db
+
