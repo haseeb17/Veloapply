@@ -105,6 +105,16 @@ def test_low_battery_waits():
     assert lab.store.get_device("a54").status == "online"
 
 
+def test_seeded_desk_reservation_survives_a_tick():
+    _, lab = client_and_lab()
+    lab.tick()
+    px9 = lab.store.get_device("px9")
+    assert px9.status == "reserved"
+    assert px9.reserved_by == "amina"
+    session = next(s for s in lab.store.list_sessions() if s.device_id == "px9")
+    assert session.status == "active"
+
+
 def test_reserve_and_release():
     client, lab = client_and_lab()
     started = client.post(

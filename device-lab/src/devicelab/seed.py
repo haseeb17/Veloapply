@@ -1,6 +1,8 @@
 from __future__ import annotations
 
-from .models import AuditEvent, Device, DeviceRun, Job, Pool, Session, StepResult, iso
+from datetime import timedelta
+
+from .models import AuditEvent, Device, DeviceRun, Job, Pool, Session, StepResult, iso, utcnow
 from .store import Store
 
 
@@ -266,7 +268,7 @@ def seed(store: Store) -> None:
             automatable=True,
             last_seen=iso(),
             reserved_by="amina",
-            reserved_until=iso(),
+            reserved_until=iso(utcnow() + timedelta(minutes=45)),
         ),
         Device(
             id="flip5",
