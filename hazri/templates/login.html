@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hazri — Login</title>
+  <link rel="stylesheet" href="/static/css/app.css" />
+  <link rel="icon" href="/static/favicon.svg" />
+</head>
+<body class="auth-body">
+  <main class="auth-card">
+    <div class="brand">
+      <span class="mark">ح</span>
+      <div>
+        <strong>Hazri</strong>
+        <em>Chip card attendance</em>
+      </div>
+    </div>
+    <h1>School gate, register, reports — ek software.</h1>
+    <p class="lede">RFID / chip card tap hote hi hazri, late, aur wali ke SMS queue ho jati hai.</p>
+    <form id="login-form">
+      <label>Username
+        <input name="username" autocomplete="username" value="admin" required />
+      </label>
+      <label>Password
+        <input name="password" type="password" autocomplete="current-password" value="hazri123" required />
+      </label>
+      <button type="submit">Enter office</button>
+      <p class="form-error" id="login-error" hidden></p>
+    </form>
+    <p class="hint">Demo: <code>admin / hazri123</code> · Gate: <code>gate / gate123</code></p>
+  </main>
+  <script src="/static/js/login.js"></script>
+</body>
+</html>

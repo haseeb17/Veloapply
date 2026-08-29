@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hazri Gate</title>
+  <link rel="stylesheet" href="/static/css/app.css" />
+  <link rel="icon" href="/static/favicon.svg" />
+</head>
+<body class="kiosk-body">
+  <header class="kiosk-top">
+    <div class="brand">
+      <span class="mark">ح</span>
+      <div>
+        <strong id="kiosk-school">Hazri</strong>
+        <em>Chip card gate</em>
+      </div>
+    </div>
+    <div class="kiosk-clock" id="clock">--:--</div>
+    <a class="ghost" href="/">Office</a>
+  </header>
+  <section class="kiosk-stage" id="stage">
+    <p class="kiosk-prompt">Card tap karein</p>
+    <p class="kiosk-sub">USB RFID reader automatically UID type karega. Demo ke liye neeche wali cards bhi tap kar sakte ho.</p>
+    <form id="scan-form" autocomplete="off">
+      <input id="uid" name="uid" autofocus placeholder="Waiting for chip card…" />
+      <button type="submit">Scan</button>
+    </form>
+    <div id="flash" class="flash" hidden></div>
+  </section>
+  <section class="demo-strip">
+    <h2>Demo cards — bina hardware ke client ko dikhao</h2>
+    <div id="demo-cards" class="card-row"></div>
+  </section>
+  <script src="/static/js/kiosk.js"></script>
+</body>
+</html>

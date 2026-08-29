@@ -7,3 +7,7 @@ venv/
 .mypy_cache/
 .DS_Store
 comment.md
+*.db
+*.db-wal
+*.db-shm
+hazri/data/

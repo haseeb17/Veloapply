@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hazri</title>
+  <link rel="stylesheet" href="/static/css/app.css" />
+  <link rel="icon" href="/static/favicon.svg" />
+</head>
+<body>
+  <div class="shell" id="app">
+    <aside class="nav">
+      <div class="brand">
+        <span class="mark">ح</span>
+        <div>
+          <strong id="school-name">Hazri</strong>
+          <em id="school-city">School attendance</em>
+        </div>
+      </div>
+      <nav>
+        <button data-page="dashboard" class="active">Dashboard</button>
+        <button data-page="kiosk-link">Gate kiosk</button>
+        <button data-page="students">Students & cards</button>
+        <button data-page="attendance">Daily register</button>
+        <button data-page="reports">Monthly report</button>
+        <button data-page="sms">Parent SMS</button>
+        <button data-page="pricing">Sell / cost</button>
+        <button data-page="settings">Settings</button>
+      </nav>
+      <div class="nav-foot">
+        <span id="whoami">—</span>
+        <button type="button" id="logout">Log out</button>
+      </div>
+    </aside>
+    <main class="content">
+      <section id="page-dashboard" class="page"></section>
+      <section id="page-students" class="page" hidden></section>
+      <section id="page-attendance" class="page" hidden></section>
+      <section id="page-reports" class="page" hidden></section>
+      <section id="page-sms" class="page" hidden></section>
+      <section id="page-pricing" class="page" hidden></section>
+      <section id="page-settings" class="page" hidden></section>
+    </main>
+  </div>
+  <div id="modal" class="modal" hidden></div>
+  <script src="/static/js/app.js"></script>
+</body>
+</html>
