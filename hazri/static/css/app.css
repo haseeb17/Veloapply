@@ -138,9 +138,12 @@ th { color: #66736a; font-weight: 600; font-size: 0.78rem; letter-spacing: 0.04e
 .modal {
   position: fixed; inset: 0;
   background: rgba(20, 36, 28, 0.45);
-  display: grid; place-items: center;
+  display: none;
+  place-items: center;
   padding: 1rem;
 }
+.modal:not([hidden]) { display: grid; }
+[hidden] { display: none !important; }
 .modal .sheet {
   background: var(--card);
   width: min(520px, 100%);
